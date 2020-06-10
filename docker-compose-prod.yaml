@@ -6,7 +6,7 @@ services:
       - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: IceHrmR00t
-      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_USER: prod
       MYSQL_PASSWORD: prod
       MYSQL_DATABASE: icehrm
