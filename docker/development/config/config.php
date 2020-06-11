@@ -8,9 +8,9 @@ define('BASE_URL','http://localhost:8080/web/');
 define('CLIENT_BASE_URL','http://localhost:8080/app/');
 
 define('APP_DB', 'icehrm');
-define('APP_USERNAME', 'root');
-define('APP_PASSWORD', 'root');
-define('APP_HOST', 'mysql');
+define('APP_USERNAME', 'iohub');
+define('APP_PASSWORD', 'iohubpwd');
+define('APP_HOST', 'localhost');
 define('APP_CON_STR', 'mysqli://'.APP_USERNAME.':'.APP_PASSWORD.'@'.APP_HOST.'/'.APP_DB);
 
 //file upload
