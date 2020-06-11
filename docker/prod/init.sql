@@ -2774,7 +2774,9 @@ INSERT INTO `UserRoles` VALUES
 
 
 INSERT INTO `Users` VALUES
-(1,'admin','icehrm+admin@web-stalk.com','21232f297a57a5a743894a0e4a801fc3',1,NULL,'Admin','',NULL,NULL,NULL,NULL,NULL);
+(1,'admin','icehrm+admin@web-stalk.com','21232f297a57a5a743894a0e4a801fc3',1,NULL,'Admin','',NULL,NULL,NULL,NULL,NULL),
+(2,'momo','moses@gmail.com','25f9e794323b453885f5181f1b624d0b',1,NULL,'Admin','',NULL,NULL,NULL,NULL,NULL);
+
 
 
 INSERT INTO `SalaryComponentType` (`id`,`code`, `name`) VALUES
